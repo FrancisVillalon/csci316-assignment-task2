@@ -1,0 +1,15 @@
+services:
+  pyspark-notebook:
+    container_name: csci316
+    build:
+      context: .
+      dockerfile: ./build/Dockerfile
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks
+      - ./data:/home/jovyan/data
+      - ./models:/home/jovyan/models
+    environment:
+      - JUPYTER_TOKEN=170121
