@@ -8,8 +8,10 @@ services:
       - "8888:8888"
       - "4040:4040"
     volumes:
-      - ./notebooks:/home/jovyan/work/notebooks
+      - ./deliverables:/home/jovyan/deliverables
       - ./data:/home/jovyan/data
       - ./models:/home/jovyan/models
+      - ./images:/home/jovyan/images
+      - ./:/home/jovyan
     environment:
-      - JUPYTER_TOKEN=170121
+      - JUPYTER_TOKEN=123456

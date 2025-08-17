@@ -14,3 +14,4 @@ altair
 h5py
 openpyxl
 xlrd
+kaleido>=0.2.1
