@@ -3,7 +3,7 @@ FROM jupyter/pyspark-notebook:latest
 # Switch to root to fix permissions
 USER root
 
-# Install Kaleido dependencies and Chrome
+# Install Kaleido dependencies and Chrome -> Needed for plotly image export
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         wget \
