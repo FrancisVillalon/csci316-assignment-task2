@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.Interaction","timestamp":1755542702411,"sparkVersion":"3.5.0","uid":"interaction_f42ba755da96","paramMap":{"outputCol":"interaction_ddbfde0e9ee6","inputCols":["bathrooms","square_feet"]},"defaultParamMap":{"outputCol":"interaction_f42ba755da96__output"}}
