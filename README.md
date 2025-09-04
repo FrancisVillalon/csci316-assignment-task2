@@ -25,6 +25,11 @@ Implement a comprehensive data mining project using **Spark MLlib** to predict a
    - Open your browser and navigate to `http://localhost:8888`
    - Run the notebook files
 
+Note: Ensure working directory has folders
+- Deliverables
+- data
+- models
+- images
 ---
 
 ## 📋 Requirements
